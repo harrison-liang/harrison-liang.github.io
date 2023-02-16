@@ -1,0 +1,15 @@
+.exercise .row div {
+    border-width: 0px 1px;
+    border-color: gray;
+    border-style: solid;
+    height: 400px;
+  }
+.color1{
+    background-color: blueviolet;
+}
+.color2{
+    background-color: aquamarine;
+}
+.color3{
+    background-color: deeppink;
+}
