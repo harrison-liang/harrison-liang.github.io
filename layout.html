@@ -82,7 +82,7 @@
   <div class="container exercise" id="exercise4">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 color1">This is column 1</div>
-      <div class="col-lg-3 col-md-6 color2">This is column 2</div>
+      <div class="col-lg-3 col-md-6 col-sm-12 color2">This is column 2</div>
       <div class="col-lg-3 color3">This is column 3</div>
     </div>
   </div>
@@ -94,25 +94,32 @@
     <li>Nest a grid with 3 columns inside the right most column.</li>
   </ol>
   </p>
-
-  <p>BONUS: make each of the top level columns its own color. Make all of the nested columns the SAME color.</p>
-  <div class="container exercise" id="exercise5">
-    <div class="row">
-      <div class="column1">This is column 1</div>
-      <div class="column2">This is column 2. Nest 3 columns inside of me!</div>
+  <div class = "container exercise" id="exercise5">
+    <div class = "row">
+      <div class = "col-5 color1">This is column 1</div>
+      <div class = "col-7">
+        <div class = "row">
+          <div class = "col color2">This is column 2.1</div>
+          <div class = "col color2">This is column 2.2</div>
+          <div class = "col color2">This is column 2.3</div>
+        </div>
+      </div>
     </div>
   </div>
+  <p>BONUS: make each of the top level columns its own color. Make all of the nested columns the SAME color.</p>
 
   <h2>Exercise 6</h2>
   <p>Try to copy the layout of your favorite website!</p>
   <p>Don't have a favorite website? Try tiktok.com</p>
 
   ADD CODE HERE
-
+  <button onclick="myOnClickFunction()" id = "button">Click me!</button>
+  <div id= "empty"></div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
+  <script src = "scripts/main.js"></script>
 </body>
 
 </html>
